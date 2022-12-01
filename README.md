@@ -27,5 +27,5 @@ Subscriber and a Publish-Subscribe architecture.<br />
 * in the parent.py you can create topics, you can do this by using the command -- create TopicName NoPartations  <br />
 * Now we need to specify the topic name while running the producer-3.py file.  -- python3 producer-3.py TopicName  <br />
 * Finally, we can run the consumer.py file by specifing the topic name and </br>
-  we can even add an optional flag -- python3 consumer.py TopicName  OR  python3 consumer.py TopicName --from_beginning
+  we can even add an optional flag -- python3 consumer.py TopicName  (OR)  python3 consumer.py TopicName --from_beginning
   
